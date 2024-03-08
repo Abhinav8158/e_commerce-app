@@ -15,7 +15,7 @@ class Navigation extends StatefulWidget {
 class _NavigationState extends State<Navigation> {
   int _currentIndex = 0;
   final List<Widget> _pages = [
-    Hom`e(),
+    Home(),
     Category(), // Assuming 'Category' is your category page
     Notifications(),
     Account(),
